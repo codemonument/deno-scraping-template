@@ -39,8 +39,4 @@ cli-args parsing package in `main.ts` and build out the commands.
       `deno install -qAn vr https://deno.land/x/velociraptor@1.5.0/cli.ts`
    3. If you used this exact command from Step 2 from this readme, 
       run `vr upgrade` afterwards to update velociraptor
-
-## TODOs for this Template
-
-- Add automation with Github Actions:
-  https://stefanbuck.com/blog/repository-templates-meets-github-actions
+2. Install puppeteer chrome: `vr install-chrome-for-puppeteer`
