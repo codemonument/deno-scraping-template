@@ -1,7 +1,8 @@
-# Deno Scripting Template
+# Deno Scraping Template
 
-A template repo for developing scripts with deno. These scripts can be compiled
-to single js files or even bundled with the deno executable for distribution.
+A template repo for developing scrapers with deno. 
+This is intended to be used by the developer himself to accomplish some kind of data retrieval from websites, 
+but the resulting script can also be compiled to single js files or even bundled with the deno executable for distribution.
 
 This could also be used as a base for a cli written in deno, simply use a
 cli-args parsing package in `main.ts` and build out the commands.
