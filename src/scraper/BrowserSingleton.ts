@@ -38,7 +38,7 @@ export async function initBrowser(options:
 
 /**
  * Allows to get ahold of a singleton browser instance everywhere in the scraper.
- * Avoids having to pass a browser instance or a prepared page object through all sraper functions.
+ * Avoids having to pass a browser instance or a prepared page object through all scraper functions.
  * @returns a puppeteer Browser Instance (wrapped in a promise)
  */
 export function getBrowser(): Browser {
