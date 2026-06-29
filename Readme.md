@@ -4,6 +4,8 @@ A template repo for developing scrapers with deno.
 This is intended to be used by the developer himself to accomplish some kind of data retrieval from websites, 
 but the resulting script can also be compiled to single js files or even bundled with the deno executable for distribution.
 
+This repository intentionally does not need varlock or jb-dev-env treatment.
+
 This could also be used as a base for a cli written in deno, simply use a
 cli-args parsing package in `main.ts` and build out the commands.
 
